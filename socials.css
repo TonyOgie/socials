@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+.background-body{
+    background-color: hsl(0, 0%, 12%);
+    display: inline-block;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+img{
+    margin-top: 5px;
+    width: 7rem;
+    border-radius: 10px;
+}
+
+p,
+li{
+    font-family: Inter;
+    color: white;
+}
+
+#name{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+
+#city{
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+#about{
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    font-size: smaller;
+    margin-bottom: 15px;
+}
+
+li{
+    list-style: none;
+    border: 1px solid hsl(0, 0%, 12%);
+    background-color: hsl(0, 0%, 20%);
+    padding: 0.625rem 1.8rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+li:active,
+li:hover,
+li:focus{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+li:active a,
+li:hover a,
+li:focus a{
+    color: hsl(0, 0%, 8%);
+}
+
+a{
+    text-decoration-line: none;
+    color: hsl(0, 0%, 100%);
+    font-size: small;
+    display: block;
+}
